@@ -1,0 +1,13 @@
+footer {
+    position: fixed;
+    background-color: gray;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.Bold {
+    font-weight: bold;
+}
+body  {
+    background-color: beige;
+}
