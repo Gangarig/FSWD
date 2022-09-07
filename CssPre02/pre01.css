@@ -1,0 +1,30 @@
+div {
+    margin: 20px;
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+}
+.position {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    border: 1px solid black;   
+}
+.relative {
+    position: relative;
+    top: 0px;
+    left: 500px;
+    border: 1px solid black; 
+}
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 300px;
+    border: 1px solid black; 
+}
+.sticky {
+    position: sticky;
+    top: 0px;
+    left: 900px;
+    border: 1px solid black; 
+}
