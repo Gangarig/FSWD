@@ -15,10 +15,16 @@ body  {
     text-align: right;
 }
 .center {
-  text-align: center;
+    text-align: center;
 }
 .background {
     background-image: url('Pic1.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    height: 100%;
+ 
+}
+.static
+{
+    position: static;
 }
