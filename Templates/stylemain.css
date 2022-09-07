@@ -11,3 +11,14 @@ footer {
 body  {
     background-color: beige;
 }
+.right {
+    text-align: right;
+}
+.center {
+  text-align: center;
+}
+.background {
+    background-image: url('Pic1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
