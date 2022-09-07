@@ -28,3 +28,18 @@ div {
     left: 900px;
     border: 1px solid black; 
 }
+p[class~="dog"] {
+    background-color: beige;
+    font-weight: bold;
+}
+
+[class^="top"] {
+    background: yellow;
+}
+
+.one {
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;
+
+}

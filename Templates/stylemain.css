@@ -1,15 +1,9 @@
-footer {
-    position: fixed;
-    background-color: gray;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-}
-.Bold {
-    font-weight: bold;
-}
+
 body  {
     background-color: beige;
+}
+.left{
+    text-align: left;
 }
 .right {
     text-align: right;
@@ -22,9 +16,26 @@ body  {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
- 
-}
-.static
-{
+ }
+.position {
+    position: absolute;
+    top: 150px;
+    left: 100px; 
+ }
+.static {
     position: static;
+}
+nav{
+    font-size: 1.5em;
+    background-color: rgba(0, 153, 255, 0.651);
+}
+footer {
+    position: fixed;
+    background-color: gray;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.Bold {
+    font-weight: bold;
 }
