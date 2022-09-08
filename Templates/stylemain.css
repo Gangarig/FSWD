@@ -1,6 +1,6 @@
 
 body  {
-    background-color: beige;
+    background-color:rgb(247, 236, 222)
 }
 .left{
     text-align: left;
@@ -27,7 +27,7 @@ body  {
 }
 nav{
     font-size: 1.5em;
-    background-color: rgba(0, 153, 255, 0.651);
+    background-color: rgb(233, 218, 193);
 }
 footer {
     position: fixed;
@@ -38,4 +38,10 @@ footer {
 }
 .Bold {
     font-weight: bold;
+}
+div {
+    height: 40%;
+    width: 20%;
+    border-style: double;
+    border-color: rgb(158, 210, 198);
 }
