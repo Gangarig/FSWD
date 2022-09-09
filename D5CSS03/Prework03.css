@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color-danger: #ff0000;
+    --color-warning: #ffff00;
+    --color-success: #1c841c;
+    --color-primary: #1256de;
+    --color-qwe: orange;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    background: transparent;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.bg-danger {
+    background-color: var(--color-danger);
+}
+
+.bg-warning {
+    background-color: var(--color-warning);
+}
+
+.bg-success {
+    background-color: var(--color-success);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+.qwe {
+    background: transparent;
+    background-color: var(--color-qwe);
+    cursor: pointer;
+}
