@@ -35,6 +35,7 @@ footer {
     font-weight: bold;
 }
 .div1{
+    position: relative;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -42,12 +43,11 @@ footer {
     justify-content: center;
 }
 .textindiv1 {
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 180px;
-    width: 400px;
-    border: 4px solid black;
-
-    
-
+    width: 500px;
+    top: 820px;
+    right: 730px;
 }
