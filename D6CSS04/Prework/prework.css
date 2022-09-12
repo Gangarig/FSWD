@@ -1,0 +1,38 @@
+body {
+    margin: 100px;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+}
+.classname{
+
+    background: purple; /*fall-back if gradients are not supported by browser*/
+
+    background-image: linear-gradient(green,red);
+
+}
+#gradient1 {
+    /* Firefox 3.6+ */
+    background-image: -moz-linear-gradient(#336666, #66cccc);
+    /* Safari 4+, Chrome 1+ */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#66cccc), to(#336666));
+    /* Safari 5.1+, Chrome 10+ */
+    background-image: -webkit-linear-gradient(#336666, #66cccc);
+    /* Opera 11.10+ */
+    background-image: -o-linear-gradient(#336666, #66cccc);
+ }
+ /* gradient example */
+#gradient {
+    /* Firefox 3.6+ */
+    background-image: -moz-linear-gradient(#336666, #66cccc);
+    /* Safari 4+, Chrome 1+ */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#66cccc), to(#336666));
+    /* Safari 5.1+, Chrome 10+ */
+    background-image: -webkit-linear-gradient(#336666, #66cccc);
+    /* Opera 11.10+ */
+    background-image: -o-linear-gradient(#336666, #66cccc);
+    height: 150px;
+    width: 300px;
+}
