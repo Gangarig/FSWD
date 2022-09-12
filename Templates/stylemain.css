@@ -11,19 +11,14 @@ body  {
 .center {
     text-align: center;
 }
-.background {
-    background-image: url('Pic1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
- }
+
 .position {
     position: absolute;
     top: 150px;
     left: 100px; 
  }
-.static {
-    position: static;
+.relative {
+    position: relative;
 }
 nav{
     font-size: 1.5em;
@@ -39,9 +34,20 @@ footer {
 .Bold {
     font-weight: bold;
 }
-div {
-    height: 40%;
-    width: 20%;
-    border-style: double;
-    border-color: rgb(158, 210, 198);
+.div1{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.textindiv1 {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 400px;
+    border: 4px solid black;
+
+    
+
 }
