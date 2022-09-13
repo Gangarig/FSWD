@@ -1,0 +1,38 @@
+*{
+   background-color: beige;
+}
+.row65.35 {
+    margin: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.column50 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:20px;
+    row-gap:20px;
+}
+.row50 {
+    display: grid;
+    grid-row: 1fr 1fr;
+    column-gap:20px;
+    row-gap:20px;
+}
+.box    {
+    width: 100px;
+    height: 100px;
+}
+img {
+    width: 90%;
+    height: 90%;
+    transition: 1s;
+    
+}
+img:hover {
+    scale: 1.3;
+
+}
