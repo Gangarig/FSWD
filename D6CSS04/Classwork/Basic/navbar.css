@@ -4,6 +4,10 @@
     height: auto;
     background-color: beige;
 }
+div {
+    display: flex;
+    margin-top: 150px;
+}
 .button {
     color: rgb(53, 98, 182);
     background-color: rgb(240, 215, 132);
