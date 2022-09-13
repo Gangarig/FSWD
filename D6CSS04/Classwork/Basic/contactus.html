@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="stylemain.css" />
+    <style>
+      body {
+        background-color: rgb(247, 236, 222);
+      }
+      .left {
+        text-align: left;
+      }
+      .right {
+        text-align: right;
+      }
+      .center {
+        text-align: center;
+      }
+
+      .position {
+        position: absolute;
+        top: 150px;
+        left: 100px;
+      }
+      .relative {
+        position: relative;
+      }
+      nav {
+        font-size: 1.5em;
+        background-color: rgb(233, 218, 193);
+      }
+      footer {
+        position: fixed;
+        background-color: gray;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      .Bold {
+        font-weight: bold;
+      }
+      .div1 {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+      }
+      .textindiv1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 180px;
+        width: 500px;
+        top: 820px;
+        right: 730px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="navbar.html"><b>Home</b></a>
+    </nav>
+    <div class="Bold left position">
+      <label for="firstname">First Name</label>
+      <input
+        type="text"
+        name="firstname"
+        id="firstname"
+        placeholder="First Name"
+      /><br />
+      <br />
+      <label for="lastname">Lastname</label>
+      <input
+        type="text"
+        name="lastname"
+        id="lastname"
+        placeholder="Last Name"
+      /><br />
+      <p>Email:<input type="text" placeholder="Johndoe@example.com" /></p>
+      <p>Phone number:<input type="number" placeholder="004312345678912" /></p>
+      <label for="message"></label>
+      <br />
+      <p>Message</p>
+      <textarea id="message" name="message" rows="5" cols="30"> </textarea>
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </div>
+  </body>
+</html>
