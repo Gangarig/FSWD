@@ -1,0 +1,43 @@
+nav {
+  background-color: beige;
+  border-radius: 15px;
+  justify-content: baseline;
+  display: flex;
+}
+nav .btn {
+  background-color: beige;
+  font-size: large;
+  font-weight: bold;
+  width: 19%;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+}
+nav .btn:hover {
+  color: white;
+}
+
+body {
+  background-color: black;
+  background-image: url(charles_darwin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: 1%;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-position: bottom 100px;
+    margin: 2%;
+  }
+  body nav {
+    width: 99%;
+  }
+  body nav .btn {
+    font-size: small;
+    font-weight: bold;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+  body {
+    background-position: bottom 100px;
+    margin: 2%;
+    nav {
+        width: 99%;
+        .btn {
+            font-size: small;
+            font-weight: bold;
+        }
+    }
+  }
+}

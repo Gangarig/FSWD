@@ -1,0 +1,38 @@
+@media screen and (max-width: 682px) 
+{
+    body {  
+        background-color:beige;
+        padding: 1%;
+        margin: 5%;
+        nav {
+            margin-left: 10%;
+            align-items: center;
+            display: inline-flex;
+            flex-direction: row;
+            position: fixed;
+            width: 70%;
+            height: 30px;
+            padding: 5px;
+            border: solid darkgray 2px;
+            transition: 1s;
+            &:hover {
+                margin-left: 5%;
+                scale: 1.1;
+            }
+        }
+        .button {
+            color: rgb(53, 98, 182);
+            background-color: rgb(240, 215, 132);
+            font-weight: bold;
+            font-size: 5pt;
+            width: 50px;
+            height: 25px;
+            transition: 1s;
+            justify-content: baseline;
+            border-radius: 5px;
+            &:hover{
+                color: red;
+            }
+       }
+    }
+}

@@ -1,0 +1,18 @@
+nav {
+    background-color: beige;
+    border-radius: 15px;
+    justify-content: baseline;
+    display: flex;
+    .btn { 
+        background-color: beige;
+        font-size: large;
+        font-weight: bold;
+        width: 19%;
+        height: 50px;
+        border-radius: 15px;
+        border: none;
+        &:hover {
+            color:white;
+        }
+    }
+}
