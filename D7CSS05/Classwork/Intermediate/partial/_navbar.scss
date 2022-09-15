@@ -1,8 +1,11 @@
 nav {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: beige;
     border-radius: 15px;
-    justify-content: baseline;
-    display: flex;
+   
     .btn { 
         background-color: beige;
         font-size: large;

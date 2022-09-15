@@ -18,22 +18,20 @@ nav .btn:hover {
 }
 
 body {
-  background-color: black;
-  background-image: url(charles_darwin.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-body {
   margin: 1%;
+  background-color: black;
 }
 
 @media screen and (max-width: 1000px) {
   body {
+    justify-content: center;
+    align-items: center;
     background-position: bottom 100px;
     margin: 2%;
   }
   body nav {
+    justify-content: center;
+    align-items: center;
     width: 99%;
   }
   body nav .btn {
