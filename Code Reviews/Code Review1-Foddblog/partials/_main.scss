@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5dc;
+}
+/* Here is the style for Recipe of the month*/
+.Recipe {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-left: 500px; 
+    padding-right: 100px;
+    font-family: 'Saira Condensed', sans-serif;
+    h2 {
+        justify-content: center;
+        text-align: center;
+    }
+    .middle {
+        text-align: center;
+    }
+    .flexbox {
+        margin-top: 0%;
+        display: flex; 
+        justify-content: space-around;
+        font-weight: bold;
+        p {
+            width: 33%;
+            text-align: center;
+        }
+    }
+    .sideborderblack {
+        border-left: 3px solid white;
+        border-right: 3px solid white;
+    }
+    img {
+        padding-right: 50px;
+        width: 700px;
+        height: auto;
+    }
+    .rating {
+        font-size: 25px;
+        color: #F4B400;
+        .center {
+            text-align: center;
+         }
+    }
+    .nutrition {
+        width: 250px;
+        height: auto;
+    }
+    hr {
+        background-color: gray;
+        border: 4px solid gray;
+    }
+}
+/*About us style*/
+.aboutus { 
+    background-image: url(Pictures/bg1.jpg);
+    height: 900px;
+    width: 100%;
+    font-size: 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: beige;
+}
+.aboutuscontent {
+    background-color: opacify($color: #0000000a, $amount:0.6);
+    font-family: 'Josefin Sans', sans-serif;
+    height: 900px;
+}
+.aboutustext {
+    padding-top: 350px;
+}
