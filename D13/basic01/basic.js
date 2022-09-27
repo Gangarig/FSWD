@@ -4,4 +4,4 @@ for ( let i = 0 ; i <= array.length ; i++) {
         max = array[i];
     }   else { }
 }
-console.log("highest value of arrya =",max);
+document.write("highest value of arrya = ",max);
