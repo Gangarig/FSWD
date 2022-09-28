@@ -19,8 +19,8 @@ if (temp >30){
 function weatherimg(img) {
     var x = document.createElement("IMG");
     x.setAttribute("src", `${img}.jpg`);
-    x.setAttribute("width", "342");
-    x.setAttribute("height", "870");
+    x.setAttribute("width", "200");
+    x.setAttribute("height", "400");
     document.body.appendChild(x);
   }
  
