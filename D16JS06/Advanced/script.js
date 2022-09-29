@@ -18,5 +18,12 @@
 //         "Img":"LOTR.jpg"
 //       }]`;
 let books = JSON.parse(data);
-
-    
+for (let book of books) {
+    document.getElementById("content").innerHTML += `
+    <div class="bookbox">
+    <p><u> Title is ${book.title}</u></p><br>
+    <p> Author is ${book.author}</p><br>
+    <img src="${book.Img}" alt=""><br>
+    </div>
+    `;
+}

@@ -1,0 +1,21 @@
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+
+}
+img {
+    width: 300px;
+}
+#content { display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.bookbox {
+    margin: 50px;
+    font-size: large;
+    font-weight: bold;
+    border: 2px beige solid;
+    padding: 50px;
+}
