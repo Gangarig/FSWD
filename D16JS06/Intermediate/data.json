@@ -1,0 +1,71 @@
+let employee =`[{
+    "uniqueId": "00001",
+    "first_Name":"Ganaa",
+    "lastName":"Nyamsuren",
+    "emailAdress":"ganaa@email.com",
+    "jobTitle":"student",
+    "salary":"100000$"
+},{
+    "uniqueId": "00002",
+    "first_Name":"Murun",
+    "lastName":"Badrakh",
+    "emailAdress":"murun@email.com",
+    "jobTitle":"HRmanager",
+    "salary":"200000$"
+},{
+    "uniqueId": "00003",
+    "first_Name":"Saraa",
+    "lastName":"Bullock",
+    "emailAdress":"saraa@email.com",
+    "jobTitle":"Itdeveloper",
+    "salary":"300000$"
+},{
+    "uniqueId": "00004",
+    "first_Name":"Ulrich",
+    "lastName":"Richard",
+    "emailAdress":"ulrich@email.com",
+    "jobTitle":"developer",
+    "salary":"400000$"
+},{
+    "uniqueId": "00005",
+    "first_Name":"Bronx",
+    "lastName":"Sedwig",
+    "emailAdress":"Bronx@email.com",
+    "jobTitle":"datascientist",
+    "salary":"500000$"
+},{
+    "uniqueId": "00006",
+    "first_Name":"Thor",
+    "lastName":"Odin",
+    "emailAdress":"Thor@email.com",
+    "jobTitle":"Thundergod",
+    "salary":"600000$"
+},{
+    "uniqueId": "00007",
+    "first_Name":"Tony",
+    "lastName":"Stark",
+    "emailAdress":"tony@email.com",
+    "jobTitle":"genius,playboy",
+    "salary":"70000000000$"
+},{
+    "uniqueId": "00008",
+    "first_Name":"Black",
+    "lastName":"Widow",
+    "emailAdress":"natasha@email.com",
+    "jobTitle":"assasin",
+    "salary":"800000000$"
+},{
+    "uniqueId": "00009",
+    "first_Name":"Loki",
+    "lastName":"Odin",
+    "emailAdress":"loki@email.com",
+    "jobTitle":"lier",
+    "salary":"900000$"
+},{
+    "uniqueId": "00010",
+    "first_Name":"fname1",
+    "lastName":"lname1",
+    "emailAdress":"email1",
+    "jobTitle":"profession1",
+    "salary":"990000$"
+}]`;
