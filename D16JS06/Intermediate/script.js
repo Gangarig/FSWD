@@ -1,7 +1,6 @@
 let data = JSON.parse(employee);
-console.log(data);
 for (let list of data) {
-    document.getElementById("test").innerHTML +=`<table>
+    document.getElementById("test").innerHTML +=`
     <tr>
         <td id="id">${list.uniqueId}</td>
         <td id="fname">${list.first_Name}</td>
@@ -9,8 +8,7 @@ for (let list of data) {
         <td id="eaddress">${list.emailAdress}</td>
         <td id="jtitle">${list.jobTitle}</td>
         <td id="salary">${list.salary}</td>   
-    </tr>
-    </table>`
+    </tr>`
     
 }
 

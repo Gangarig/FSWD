@@ -1,0 +1,18 @@
+let data = `[
+    {   "title":"Animal Farm",
+        "author":"George Orwel",
+        "read":"true",
+        "Img":"animalfarm.jpg"
+    },     
+    {   "title":"Harry Potter",
+        "author":"J.K Rowling",
+        "read":"false",
+        "Img":"Harrypotter.jpg"
+    },    
+    {   "title":"Lord of The Rings",
+        "author":"J.R.R Tolkein",
+        "read":"true",
+        "Img":"LOTR.jpg"
+      }]`;
+
+    
