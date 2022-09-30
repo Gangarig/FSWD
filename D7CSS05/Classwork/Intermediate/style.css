@@ -1,8 +1,10 @@
 nav {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: beige;
   border-radius: 15px;
-  justify-content: baseline;
-  display: flex;
 }
 nav .btn {
   background-color: beige;
@@ -18,8 +20,11 @@ nav .btn:hover {
 }
 
 body {
-  margin: 1%;
+  margin: 5%;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1000px) {
