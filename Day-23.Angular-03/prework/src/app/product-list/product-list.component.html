@@ -1,0 +1,26 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products ; index as productId">
+
+<!-- index will refer to the index of the element, productId is just a parameter name that you can change if you want, but
+
+you need to change it in the app.routing.module.ts -->
+
+
+ <h3>
+
+   <a routerLink="products/{{productId}}">
+
+     {{ product.name }}
+
+    </a>
+
+ </h3>
+
+ <p *ngIf="product.description">
+
+  Description: {{ product.description }}
+
+</p>
+
+</div>
