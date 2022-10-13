@@ -1,0 +1,10 @@
+
+<div class="card m-5" *ngIf="product" style="width: 18rem;">
+    
+    <div class="card-body">
+      <h5 class="card-title">{{product.name}}</h5>
+      <p class="card-text">{{product.price}}$</p>
+      <p class="card-text">{{product.info}}</p>
+      <a (click)="buy()" class="btn w-100 btn-primary">Buy</a>
+    </div>
+  </div>

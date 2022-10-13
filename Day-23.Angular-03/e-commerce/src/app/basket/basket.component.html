@@ -1,0 +1,14 @@
+
+<div class="basket card m-5 border-dark container" *ngFor="let product of inbasket" style="width: 18rem;">
+    
+    <div class="card-body">
+      <h5 class="card-title">{{product.name}}</h5>
+      <p class="card-text">{{product.price}}$</p>
+      <p class="card-text">{{product.info}}</p>
+      
+    </div>
+</div>
+<h3>Total price {{totalprice}}</h3>
+
+
+<button class="btn btn-success m-5" (click)="cleanbasket()"> Buyout</button>
