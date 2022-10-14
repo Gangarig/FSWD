@@ -7,13 +7,13 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path:'navbar',
     component:NavbarComponent,
   },{
     path:'basket',
     component:BasketComponent,
   },{
-    path:'home',
+    path:"home-page",
     component:HomeComponent,
   },{
     path:"info/:p_index",

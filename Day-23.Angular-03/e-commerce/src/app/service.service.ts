@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { iproducts } from './products/iproducts';
+import { products } from './products/products';
 @Injectable({
   providedIn: 'root'
 })
@@ -7,7 +8,12 @@ export class ServiceService {
   basket: Array<iproducts> = [];
   constructor() { }
   addtobasket(product:iproducts){
-  this.basket.push(product); 
+    if(this.basket.find(val => val.name == product.name)){
+      product.qtty++;
+    }else {
+      this.basket.push(product); 
+    }
+    
   }
   getitems(){
     return this.basket;
@@ -21,4 +27,14 @@ export class ServiceService {
     return total;
   }
 
+  plusqtty(i: number){
+    this.basket[i].qtty++;
+  }
+  minusqtty(i:number){
+    if(this.basket[i].qtty >0){
+    this.basket[i].qtty--;}
+    if(this.basket[i].qtty == 0){
+     delete this.basket[i];
+  }
+}
 }

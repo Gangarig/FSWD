@@ -5,7 +5,7 @@ import { products } from '../products/products';
 import { iproducts } from '../products/iproducts';
 
 @Component({
-  selector: 'app-info',
+  selector: 'info',
   templateUrl: './info.component.html',
   styleUrls: ['./info.component.css']
 })
@@ -13,7 +13,7 @@ export class InfoComponent implements OnInit {
   product: iproducts ={} as iproducts;
   p_index = 0;
   
-  constructor(private route:ActivatedRoute ,private tobasket:ServiceService) { }
+  constructor(private route:ActivatedRoute ,private basket:ServiceService) { }
 
   ngOnInit(): void {
     this.route.params.subscribe((params:Params) => {
@@ -22,8 +22,9 @@ export class InfoComponent implements OnInit {
     })
   }
   buy(){
-    alert ("Product added to basket");
-    this.tobasket.addtobasket(this.product);
+    // alert ("Product added to basket");
+    this.basket.addtobasket(this.product);
+
   }
 
 }
