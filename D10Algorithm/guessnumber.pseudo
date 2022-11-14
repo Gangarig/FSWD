@@ -1,7 +1,0 @@
-input a 
-    while a=4
-        input a
-    end while
-    print You are correct - the random number is 4
-end
-    

@@ -1,0 +1,97 @@
+* {
+    background-color: beige;
+    margin: 0;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.width1 {
+    width: 100px;
+} 
+.width2 {
+    max-width: 40px;
+    width: 100%;
+    display: flex;
+    contain: content;
+}
+.width3 {
+    width:100px;
+    max-width: 100%;
+}
+body {
+    margin: 10px;
+    width: 232px;
+    height: 500px;
+}
+.padding10px {
+    padding-left: 10px;
+}
+.margin10px{
+    margin-left: 10px;
+}
+.padding5px {
+    padding-left: 5px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 2.4em;
+}
+.hrline1 {
+    border: 0;
+    margin: 0;
+    height: 4px;
+    background-color: black;
+}
+.hrline2 {
+    border: 0;
+    background-color: black;
+    height: 1px;
+}
+.hrline3 {
+    border: 0;
+    background-color: black;
+    height: 2px;
+    margin: 0;
+}
+.hrline4 {
+    border: 0;
+    background-color: darkgray;
+    height: 1.2px;
+    margin: 0;
+}
+.hrline5 {
+    border: 0;
+    background-color: darkgray;
+    height: 1px;
+    margin: 0;
+    margin-left: 10px;
+
+}
+.flex0  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text1 {
+    font-size: 6.5pt;
+}
+footer {
+    display: flex;
+    font-size: 7pt;
+    justify-content: center;
+}
+.middle {
+    align-items: center;
+}
+.smallfont {
+    font-size: 6pt;
+}
+.mediumfont {
+    font-size: 7pt;
+}
+.margin5px {
+    margin-left: 5px;
+}

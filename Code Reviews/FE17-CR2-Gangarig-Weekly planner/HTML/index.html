@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
+  </head>
+<body>
+  <!-- Navbar starts here -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark h-25 ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">My planner</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tasks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Settings</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar ends here  -->
+
+  <!-- Header is here  -->
+  <div class="card text-center">
+    <img src="../Images/topbgimg.jpg" class="img-fluid bgimg" alt="...">
+    <div class="title1 card-img-overlay w-100 p-5 headtitle">
+      <h5 class="rounded fw-bold bg-secondary text-white bg-opacity-50">Weekly Planner</h5>
+    </div>
+  </div>
+  <!-- Main content starts here -->
+  <main class="container">
+    <div id="mainheader" class="justify-content-between">
+        <div>
+           <h4>Weekly tasks</h4>
+        </div>
+        <div class="d-flex">
+          <p class="fs-6">Sort by priority:</p>
+          <button id="sortbtn" class=" sorticon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sort-down" viewBox="0 0 16 16">
+            <path d="M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293V2.5zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"/>
+          </svg></button>
+        </div>
+    </div>
+    <div id="grid" class="row justify-content-between align-content-center" > 
+    <!-- grid items come here -->
+    </div><br>
+  </main> 
+  <!-- Main content is here-->
+  <footer class=" footerbody text-center position-relative text-bg-dark p-3">
+    <div class="container text-center">
+      <button class="icons"><img src="../Icons/facebook.svg" alt=""></button>
+      <button class="icons"><img src="../Icons/twitter.svg" alt=""></button>
+      <button class="icons"><img src="../Icons/google.svg" alt=""></button>
+      <button class="icons"><img src="../Icons/instagram.svg" alt=""></button>
+      <button class="icons"><img src="../Icons/linkedin.svg" alt=""></button>
+      <button class="icons"><img src="../Icons/github.svg" alt=""></button>
+    </div>
+    <div class="m-2 d-flex justify-content-around footer_design">
+      <label for="exampleFormControlInput1" class="form-label"></label>
+      <input type="email" class="w-50 form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <button style="border: 1px white solid;" type="button" class="btn btn-dark">Subscribe</button>
+    </div>
+      <p> &#169; 2022 Copyright Gangarig Nyamsuren</p>
+  </footer>
+    <!-- Java lines are here // for script and json -->
+    <script src="../JS/data.json"></script>
+    <script src="../JS/script.js"></script>
+    <!-- JavaScript Bundle with Popper // Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+nav {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: #f5f5dc;
+    .btn {
+        background-color: #f5f5dc;
+        display: inline-flex;
+        justify-content: space-around;
+        width: 100%;
+        border: none;
+        font-size: 1.1rem;
+        font-family: 'Anton', sans-serif;
+        &:hover {
+            color: red;
+        }
+        
+    }
+    
+}

@@ -1,0 +1,21 @@
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-radius: 15px;
+   
+    .btn { 
+        background-color: beige;
+        font-size: large;
+        font-weight: bold;
+        width: 19%;
+        height: 50px;
+        border-radius: 15px;
+        border: none;
+        &:hover {
+            color:white;
+        }
+    }
+}
