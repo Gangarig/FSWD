@@ -1,0 +1,21 @@
+
+
+.contain {
+    object-fit: contain;
+    width: 100vw;
+}
+.image {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.close {
+    width: 90vw;
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,35 @@
+.footerContainer {
+    background-color: #D8D8D8;
+
+}
+
+.footerImg {
+    max-width: 10vw;
+    background-image: url("https://images.pexels.com/photos/3497123/pexels-photo-3497123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.footerBtn {
+    background-color: #7A7A7A;
+}
+
+.footerBtn:hover {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #7A7A7A!important;
+}
+
+* {
+    box-sizing: border-box;
+}

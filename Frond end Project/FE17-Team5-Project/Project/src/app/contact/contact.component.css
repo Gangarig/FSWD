@@ -1,0 +1,58 @@
+h2 {
+    text-align: center;
+}
+
+
+input, select {
+    margin-bottom: 2em;
+    height: 50px;
+    width: 510px;
+    background-color: #e3e3e3;
+    border: none;
+}
+
+.name {
+    display: flex;
+    gap: 2em;
+}
+
+.submitbtn {
+    height: 50px;
+    width: 510px;
+    border-radius: 0;
+    border: none;
+    background-color: #7a7a7a;
+    color: white;
+    
+}
+
+
+.picker {
+    margin: 0;
+    padding: 0;
+    width: 510px;
+}
+
+
+
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }
+  
+
+  .avatar {
+    max-width: 400px;
+    border-radius: 100px;
+    padding-bottom: 1em;
+  }
+
+
+
+  a {
+    color: black;
+    text-decoration: none;
+  }

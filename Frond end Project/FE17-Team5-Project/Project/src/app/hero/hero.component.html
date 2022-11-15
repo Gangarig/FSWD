@@ -1,0 +1,137 @@
+<div class="container-fluid heroContainer mt-2">
+    <!-- IMG SLIDER -->
+      <ngb-carousel #myCarousel="ngbCarousel" class="w-75 mx-auto">
+        <ng-template ngbSlide *ngFor="let image of images;let i = index" id="{{i}}">
+          <div class="picsum-img-wrapper d-flex justify-content-center">
+             <img [src]="image" alt="Random first slide" class="heroImg">
+          </div>
+        </ng-template>
+      </ngb-carousel>
+</div>
+
+<!-- TEXT -->
+<div class="row row-cols-1 w-75 mx-auto gap-2 my-4 text-nowrap">
+    <div class="col d-flex justify-content-center d-flex">
+        <div class="display-6 fw-bold text-monospace">Studio CodeFactory</div>
+    </div>
+    <div class="col d-flex justify-content-center">
+        <div class="display-5 fw-bold text-monospace">Photographer in Vienna - Application Photos</div>
+    </div>
+    <div class="col d-flex justify-content-center">
+        <div class="display-5 fw-bolder text-monospace">Photoshooting - Business Photos</div>
+    </div>
+</div>
+<!-- TEXT END -->
+
+<!-- HERO TEXT -->
+<div class="container-fluid w-75 mx-auto my-5">  
+  <div class="heroText row row-cols-1 row-cols-lg-2 justify-content-center">
+    <div class="col d-flex justify-content-center align-items-center w-25">
+      <img src="https://images.pexels.com/photos/3497123/pexels-photo-3497123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="heroTextImg">
+    </div>
+    <div class="col d-flex flex-column p-0 justify-content-evenly">
+      <div class="container-fluid d-flex flex-column flex-fill align-items-center text-wrap w-75 gap-2">
+        <p class="text-monospace fs-3 fw-bold text-center">"Who takes your pictures is important"</p>
+        <p class="text-center fs-5">"Hello, I am Mat"</p>
+        <p class="text-center fs-6">I discovered photography while backpacking around the world and since then it has become a big part of my life. I quickly discovered that I am especially attracted to photographing people and set a goal to open my own portrait studio one day. In 2019 Studio CodeFactory has become a reality.</p>
+        <p class="text-center fs-5"> " Feel good, look good ! "</p>
+        <p class="text-center fs-6">My goal is to create a personal, simple and pleasant portrait photo shoot for you, where you can feel comfortable and we build a relaxed atmosphere. We work together to authentically reflect your personality and show you from your most beautiful and charming side.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- HERO TEXT END -->
+
+
+<!-- HERO INFO -->
+<div class="container-fluid heroInfo d-flex flex-column w-75 mx-auto gap-4 my-3">
+  <div class="container-fluid border flex-fill d-flex p-0 flex-column">
+    <div class="container-fluid display-3 text-center fw-bolder bg-dark text-white py-3 font-monospace">APPLICATION PHOTOS VIENNA</div>
+    <div class="container-fluid d-flex p-0 m-0 gap-2">
+      <div class="container p-0">
+        <img src="../../assets/portfolio_images/1.jpg" alt="" class="heroInfoImg">
+      </div>
+      <div class="container d-flex">
+        <div class="container flex-fill d-flex flex-column justify-content-evenly w-75 mx-auto">
+          <div class="container fw-bold fs-4 text-center">APPLICATIONS</div>
+          <div class="container text-center">You don't get a second chance to make a first impression. We take application photos that make you look smarter, more personable and more professional!</div>
+          <button class="btn btn-dark w-50 mx-auto btn-rounded">Learn More</button>
+        </div>
+      </div>
+      <div class="container p-0">
+        <img src="../../assets/portfolio_images/av1.jpg" alt="" class="heroInfoImg">
+      </div>
+      <div class="container p-0">
+        <img src="../../assets/portfolio_images/29.jpg" alt="" class="heroInfoImg">
+      </div>
+    </div>  
+  </div>
+  <div class="container-fluid border flex-fill d-flex p-0 flex-column">
+    <div class="container-fluid display-3 text-center fw-bolder bg-dark text-white py-3 font-monospace">PORTRAIT PHOTO SHOOTING VIENNA</div>
+    <div class="container-fluid d-flex p-0 m-0 gap-2">
+      <div class="container p-0">
+        <img src="../../assets/portfolio_images/34.jpg" alt="" class="heroInfoImg">
+      </div>
+      <div class="container p-0">
+        <img src="../../assets/portfolio_images/35.jpg" alt="" class="heroInfoImg">
+      </div>
+      <div class="container d-flex">
+        <div class="container flex-fill d-flex flex-column justify-content-evenly w-75 mx-auto">
+          <div class="container fw-bold fs-4 text-center fw-bold">PORTRAITS
+            & FAMILIES
+            PHOTOS</div>
+          <div class="container text-center">Let's celebrate together your beauty and your strengths, you deserve it! Our relaxed portrait photoshoot will create photos that you and your loved ones will enjoy forever.</div>
+          <button class="btn btn-dark mx-auto btn-rounded">Learn More</button>
+        </div>
+      </div>
+      <div class="container p-0">
+        <img src="../../assets/portfolio_images/21.jpg" alt="" class="heroInfoImg">
+      </div>
+    </div>  
+  </div>
+  <div class="container-fluid border flex-fill d-flex p-0 flex-column">
+    <div class="container-fluid display-3 text-center fw-bolder bg-dark text-white py-3 font-monospace">BUSINESS PHOTOS VIENNA</div>
+    <div class="container-fluid d-flex p-0 m-0 gap-2">
+      <div class="container p-0">
+        <img src="https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="heroInfoImg">
+      </div>
+      <div class="container d-flex">
+        <div class="container flex-fill d-flex flex-column justify-content-evenly w-75 mx-auto">
+          <div class="container fw-bold fs-4 text-center">BUSINESS
+            PORTRAITS &
+            EMPLOYEE PHOTOS</div>
+          <div class="container text-center">Whether in your office or with me in the studio. We take photos that support your company's brand and image. Together, we'll create the best business photos to bring your company even closer to the finish line.</div>
+          <button class="btn btn-dark w-50 mx-auto btn-rounded">Learn More</button>
+        </div>
+      </div>
+      <div class="container p-0">
+        <img src="https://images.pexels.com/photos/2216607/pexels-photo-2216607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="heroInfoImg">
+      </div>
+      <div class="container p-0">
+        <img src="https://images.pexels.com/photos/3785094/pexels-photo-3785094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="heroInfoImg">
+      </div>
+    </div>  
+  </div>
+  <div class="container-fluid border flex-fill d-flex p-0 flex-column">
+    <div class="container-fluid display-3 text-center fw-bolder bg-dark text-white py-3 font-monospace">PR & BRANDING PORTRAITS</div>
+    <div class="container-fluid d-flex p-0 m-0 gap-2">
+      <div class="container p-0">
+        <img src="../../assets/portfolio_images/10.jpg" alt="" class="heroInfoImg">
+      </div>
+      <div class="container p-0">
+        <img src="../../assets/portfolio_images/31.jpg" alt="" class="heroInfoImg">
+      </div>
+      <div class="container d-flex">
+        <div class="container flex-fill d-flex flex-column justify-content-evenly w-75 mx-auto">
+          <div class="container fw-bold fs-4 text-center fw-bold">PERSONAL BRANDING PORTRAITS</div>
+          <div class="container text-center">You are your own brand or often need photos of yourself for web or other publications?  Let's create branding photos together that fit you and your personal brand.
+            Your audience will be happy!</div>
+          <button class="btn btn-dark mx-auto btn-rounded">Learn More</button>
+        </div>
+      </div>
+      <div class="container p-0">
+        <img src="../../assets/portfolio_images/12.jpg" alt="" class="heroInfoImg">
+      </div>
+    </div>  
+  </div>
+</div>

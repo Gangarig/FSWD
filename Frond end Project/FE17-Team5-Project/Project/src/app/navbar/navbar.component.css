@@ -1,0 +1,12 @@
+.navContainer {
+    min-height: 10vh;
+    color: #AAAEC3;
+}
+
+.navImg {
+    max-height: 15vh;
+}
+
+.nav-item:hover {
+    color: black!important;
+}

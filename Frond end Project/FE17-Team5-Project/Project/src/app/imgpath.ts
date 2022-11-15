@@ -1,0 +1,114 @@
+export const portfolio = [
+{
+    name:"assets/portfolio_images/1.jpg",
+    number:"1",
+},{
+    name:"assets/portfolio_images/2.jpg",
+    number:"2",
+},{
+    name:"assets/portfolio_images/3.jpg",
+    number:"3",
+},{
+    name:"assets/portfolio_images/4.jpg",
+    number:"4",
+},{
+    name:"assets/portfolio_images/5.jpg",
+    number:"5",
+},{
+    name:"assets/portfolio_images/6.jpg",
+    number:"6",
+},{
+    name:"assets/portfolio_images/7.jpg",
+    number:"7",
+},{
+    name:"assets/portfolio_images/8.jpg",
+    number:"8",
+},{
+    name:"assets/portfolio_images/9.jpg",
+    number:"9",
+},{
+    name:"assets/portfolio_images/10.jpg",
+    number:"10",
+},{
+    name:"assets/portfolio_images/11.jpg",
+    number:"11",
+},{
+    name:"assets/portfolio_images/12.jpg",
+    number:"12",
+},{
+    name:"assets/portfolio_images/13.jpg",
+    number:"13",
+},{
+    name:"assets/portfolio_images/14.jpg",
+    number:"14",
+},{
+    name:"assets/portfolio_images/15.jpg",
+    number:"15",
+},{
+    name:"assets/portfolio_images/16.jpg",
+    number:"16",
+},{
+    name:"assets/portfolio_images/17.jpg",
+    number:"17",
+},{
+    name:"assets/portfolio_images/18.jpg",
+    number:"18",
+},{
+    name:"assets/portfolio_images/19.jpg",
+    number:"19",
+},{
+    name:"assets/portfolio_images/20.jpg",
+    number:"20",
+},{
+    name:"assets/portfolio_images/21.jpg",
+    number:"21",
+},{
+    name:"assets/portfolio_images/22.jpg",
+    number:"22",
+},{
+    name:"assets/portfolio_images/23.jpg",
+    number:"23",
+},{
+    name:"assets/portfolio_images/24.jpg",
+    number:"24",
+},{
+    name:"assets/portfolio_images/25.jpg",
+    number:"25",
+},{
+    name:"assets/portfolio_images/26.jpg",
+    number:"26",
+},{
+    name:"assets/portfolio_images/27.jpg",
+    number:"27",
+},{
+    name:"assets/portfolio_images/28.jpg",
+    number:"28",
+},{
+    name:"assets/portfolio_images/29.jpg",
+    number:"29",
+},{
+    name:"assets/portfolio_images/30.jpg",
+    number:"30",
+},{
+    name:"assets/portfolio_images/31.jpg",
+    number:"31",
+},{
+    name:"assets/portfolio_images/32.jpg",
+    number:"32",
+},{
+    name:"assets/portfolio_images/33.jpg",
+    number:"33",
+},{
+    name:"assets/portfolio_images/34.jpg",
+    number:"34",
+},{
+    name:"assets/portfolio_images/35.jpg",
+    number:"35",
+},{
+    name:"assets/portfolio_images/36.jpg",
+    number:"36",
+},{
+    name:"assets/portfolio_images/37.jpg",
+    number:"37",
+},
+]

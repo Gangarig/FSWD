@@ -1,0 +1,66 @@
+Group organisation: 
+
+How we started:
+    Which project do we choose? Which tools do we use?
+    Slack: for answering questions/discuss
+    Trello: for organising the tasks
+    Short meeting everyday in the morning at 9
+How we used Trello:
+    KANBAN Board with four columns:
+        Backlog - tasks that have to be done
+        In progress - tasks that someone is working on
+        Review - tasks that are done but need to be reviewed by colleagues/linked to the whole project
+        Done - completely finished
+    Tasks were marked with people that were working on them.
+    Tasks included images of the design we decided to rebuilt.
+
+
+
+-Customer reviews 
+made with css, bootstrap and native angular animation (to make it a bit more interessting)
+responsive on all screens 
+
+-Portfolio
+main section created with css /grid configuration / and responsive on all screens 
+bottom section created with bootstrap.
+each img has hover effect with opacity and scaling.
+
+-Navbar
+Made the Hover effect with CSS.
+The rest is designed with bootstrap.
+
+Responsivness: For Large screens it is displayed on one row, but
+once the User resizes the page, it will split the nav-logo & nav-items
+into two rows.
+
+Via RouterLink from Angular the User can navigate to other page components.
+
+-Footer
+Designed with bootstrap and when the page is resized,
+the content stays centered and takes up space according to its needs.
+
+Social media icons added, via bootstrap-icons + Contact-Me button.
+Contains links to other parts of the page.
+(For the sake of the project, they are currently empty/lead to no where)
+
+
+-Hero Section
+Image Slider, created with Bootstrap for angular:
+
+    1) npm i bootstrap
+    2) add bootstrap.min.css & bootstrap.js to "angular.json" fields
+    3) npm add @ng-bootstrap/ng-bootstrap (in terminal)
+    4) Add "import {NgbModule} from "@ng-bootstrap/ng-bootstrap"
+
+The Slider currently goes through an array of images in the 
+"assets/portfolio-images" folder.
+
+Other elements below the slider display a short introduction
+of the photographer and an overview of his professional services with 
+visual clues.
+(Designed with bootstrap)
+
+
+
+aBout Page -- Owl Carousel form open source library implemented and further adjusted with css styling.
+

@@ -1,0 +1,28 @@
+
+    .row{
+        width: 400;
+        height: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-wrap:wrap;
+        padding: 120px;
+        justify-content: center;
+        margin: auto!important;
+        
+    }
+
+.lead{
+
+        font-size: 18px!important;
+        text-align: center!important;
+        margin-right: auto!important;
+        word-wrap: break-word;
+    }
+ 
+    
+ .featurette-image{
+        border-radius: 50%;
+        padding: 0 6px;
+        align-content: center;
+    }

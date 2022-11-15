@@ -1,0 +1,43 @@
+<div id="gallery">
+  <img *ngFor="let img of portfolio;index as i" routerLink="/imgbig/{{i}}" routerLinkActive="router-link-active" class="imgportfolio img{{img.number}}">
+</div>
+    <div class=" cards row row-cols-sm-1 row-cols-md-1 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4 g-4 text-center">
+        <h2 class="text-center w-100"><b>HIER GEHT'S ZÜRUCK ZU:</b></h2>
+        <div class="col justify-content-center align-items-center d-flex">
+          <div class="card border border-0">
+            <img src="/assets/portfolio_images/av1.jpg" class="profilepic rounded-circle  card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bewerbungsfotos</h5>
+         
+            </div>
+          </div>
+        </div>
+        <div class="col justify-content-center align-items-center d-flex">
+          <div class="card border border-0">
+            <img src="/assets/portfolio_images/av2.jpg" class="profilepic rounded-circle  card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Businessfotos  </h5>
+          
+            </div>
+          </div>
+        </div>
+        <div class="col justify-content-center align-items-center d-flex">
+          <div class="card border border-0">
+            <img src="/assets/portfolio_images/av3.jpg" class="profilepic rounded-circle  card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Portraitfotos</h5>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col justify-content-center align-items-center d-flex">
+          <div class="card border border-0">
+            <img src="/assets/portfolio_images/av4.png" class="profilepic rounded-circle  card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Personal Branding Fotos</h5>
+           
+            </div>
+          </div>
+        </div>
+      </div>
+     

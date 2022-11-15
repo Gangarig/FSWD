@@ -1,0 +1,41 @@
+    /* You can add global styles to this file, and also import other style files */
+    .photo .owl-next, .photo .owl-prev{
+        background: rgba(90, 88, 88, 0.377)!important;
+        color: #222!important;
+        height: 63px!important;
+        width: 60px!important;
+        border-radius: 50%!important;
+        position: absolute!important;
+        top: 50%!important;
+        transition: 3s all ease!important;
+    }
+    .photo .owl-next{
+    right: -42px!important;
+    transform:translate(-50%, 50%)!important;
+    }
+
+    .photo .owl-prev{
+        left: -8px!important;
+        transform:translate(-50%, 50%)!important;
+    }
+    .photo .owl-next:hover, .photo .owl-prev:hover{
+        background: rgb(216, 139, 139)!important;
+        color: white!important;
+
+    }
+
+    .photo .owl-next i, .photo .owl-prev i{
+        font-size: 24px!important;
+        position: absolute !important;
+        top: 50%!important;
+        left: 50%!important;
+        transform:translate(-50%, 50%)!important;
+    }
+
+
+    .owl-carousel .owl-item img{
+        border: 1px solid #fff!important;
+        padding: 0 6px!important;
+        height: 400px!important;
+        width: 300px!important; 
+    } 

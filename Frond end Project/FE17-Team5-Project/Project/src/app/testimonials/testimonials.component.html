@@ -1,0 +1,27 @@
+<div class="testimonialbody">
+    <div class="p-3 d-flex justify-content-center">
+        <h2 class="p-3 bg-dark text-white">What do my Customers say?</h2>
+    </div>
+    <div *ngFor="let review of reviews; let even = even; let odd = odd" class="d-flex justify-content-around mt-3 mb-3" [ngClass]="{odd: odd, even: even}">
+        <div class="d-flex  align-items-center flex-shrink-2 card-div" *ngIf="even; else Odd" @slideFromLeft>
+            <div>
+                <img src="{{review.image}}">
+            </div>
+            <div class="p-4">
+                <h3>{{review.name}}</h3>
+                <p>{{review.reviewtext}}</p>
+            </div>
+        </div>
+        <ng-template #Odd >
+            <div class="d-flex align-items-center flex-shrink-2 card-div"  @slideFromRight>
+                <div class="p-4">
+                    <h3>{{review.name}}</h3>
+                    <p>{{review.reviewtext}}</p>
+                </div>
+                <div>
+                    <img src="{{review.image}}">
+                </div>
+            </div>
+        </ng-template>
+    </div>
+</div>
