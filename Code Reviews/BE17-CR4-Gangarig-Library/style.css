@@ -1,0 +1,40 @@
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(pictures/bg1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.bg{
+    background-color: rgb(231, 223, 223,0.6);
+    color: black;
+}
+.card-text{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+p{
+    font-weight: 700 1.3rem;
+}
+.space{
+    padding-top: 300px;
+    position: center center;
+}
