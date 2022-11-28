@@ -1,0 +1,27 @@
+<div class="container content">
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="col"  *ngFor="let dish of dishes;index as i">
+      <div class="card container">
+        <img src="{{dish.image}}" height="400px" class="image-fluid" alt="...">
+        <div class="card-body">
+            <h5 class="text-center card-title">{{dish.name}}</h5>
+            <hr>
+            <p class="h3">{{dish.price}}$</p>
+            <hr>
+            <ng-template [ngIf]="dish.status == true" [ngIfElse]="notavailable">
+            <div class="d-flex w-50">
+                <a class="w-100 btn btn-primary m-1 " routerLink="/details/{{i}}">Details</a>
+                <button (click)="buybtn(i)"  class="w-100 btn btn-success m-1" >Order</button>
+            </div>
+            </ng-template>
+            <ng-template #notavailable>
+                <h3 class="text-center bg-warning">Not available</h3>
+            </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+  

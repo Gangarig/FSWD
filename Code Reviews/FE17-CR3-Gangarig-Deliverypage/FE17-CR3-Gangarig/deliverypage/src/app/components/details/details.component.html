@@ -1,0 +1,14 @@
+
+<div class="container-fluid text-center border border-4 rounded-2 mt-5">
+  <div class="row">
+    <div class="col p-4 container-fluid">
+      <img src="{{cart.image}}" class=" rounded-3 image-fluid" alt="">
+    </div>
+    <div class="col p-5 container-fluid border border-1">
+      <h5 class="card-title">{{cart.name}}</h5>
+        <p class="card-text">{{cart.price}}</p>
+        <p class="card-text">{{cart.description}}</p>
+        <button (click)="orderbtn(i)" class="btn-success btn" > Order </button>
+    </div>
+  </div>
+</div>

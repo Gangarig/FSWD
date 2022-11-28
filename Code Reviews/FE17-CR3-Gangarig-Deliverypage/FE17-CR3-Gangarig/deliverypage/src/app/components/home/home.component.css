@@ -1,0 +1,22 @@
+.top{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/img/pizzabg.jpg);
+    height: 500px;
+    background-position: center center;
+    border: none;   
+}
+
+
+.cardbot {
+    background-color: rgb(214, 210, 210);
+}
+@media  screen and (min-width:1800px) {
+    .midtop{
+        margin-left: 500px;
+        padding-right: 500px;
+    }
+    img{
+        margin-left: 500px;
+    }
+}

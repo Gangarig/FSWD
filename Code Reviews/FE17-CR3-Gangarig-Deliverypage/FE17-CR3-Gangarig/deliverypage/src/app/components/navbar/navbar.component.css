@@ -1,0 +1,10 @@
+.navbar {
+    padding-left: 3rem;
+    display: flex;
+    justify-content: baseline;
+    justify-content: flex-start;
+    position: sticky;
+}
+.shrimp {
+    padding-right: 1rem;
+}

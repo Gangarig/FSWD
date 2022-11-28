@@ -1,0 +1,67 @@
+<!-- When cart is empty -->
+<ng-template [ngIf]="cart.length == 0 " [ngIfElse]="notempty">
+    <div class="border-3 border price rounded mt-5 text-center" >
+       <h2>Your Cart is empty</h2>
+    </div>
+    
+</ng-template>
+
+
+<!-- when cart has items -->
+<ng-template #notempty>
+  <div class="row row-cols-md-1 row-cols-sm-1  row-cols-xs-1 row-cols-lg-1 row-cols-xl-2 row-cols-xll-2">
+          <div class="col">
+                    <h2>Cart items</h2>
+                    <div class="mt-5 card mb-3" style="max-width: 540px;" *ngFor="let dish of cart; index as i">
+                        <div class="shadow row g-0 text-center pb-3">
+                          <div class="col-md-4 ">
+                            <img src={{dish.image}} class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">{{dish.name}}</h5>
+                              <p class="card-text">{{dish.description}}</p>
+                              <p class="card-text"><b>Price : {{dish.price}}$</b></p> 
+                              <span><b> Qty : {{dish.qtty}}</b></span>
+                            </div>
+                          </div>
+                          <button class="btn btn-success w-25 m-1" (click)="increaseqtty(i)">Add more</button>
+                          <button class="btn btn-danger w-25 m-1" (click)="decreaseqtty(i)">Remove dish</button>
+                        </div>
+                    </div>
+          </div>
+          <div class="col">
+    
+                <!-- If total more than 40$ -->
+                <div class="border-3 border price2 rounded mt-5 p-5 shadow" >
+                      <h2>Price details</h2>
+                      <h3>Total price {{total}}$  </h3>
+                      <h3>Service {{total*0.1}}%</h3>
+                      <h3> Total items : {{totalitems}} </h3>
+                      <ng-template [ngIf]="total >= 40">
+                      <h3>Discount : {{((total/100)*15)}}$</h3>
+                      </ng-template>
+                      <h3>Summe : {{(total-((total/100)*15))}}$</h3>
+                  </div>
+          </div>
+  </div>
+
+
+    <div class="w-50 pt-5 form">
+        <h3>Order Form</h3>
+        <p><b>please fil up the info for the delivery</b></p>
+        <hr>
+        <p><b>name</b></p>
+    <div class="input-group flex-nowrap maxw mt-3">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+        <p class="mt-3"><b>Address</b></p>
+    <div class="input-group flex-nowrap  maxw">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+        <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+    <button class="m-3 btn btn-primary" (click)="removecart()">Purchase</button>
+    </div>
+  
+</ng-template>
