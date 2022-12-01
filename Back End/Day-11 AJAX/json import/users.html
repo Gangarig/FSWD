@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <button id="button">Show friends</button>
+   <h1>Friends</h1>
+   <div id="friends">
+       <!-- the data from json will be listed here -->
+   </div>
+   <script>
+    document.getElementById("button").addEventListener("click", getFriends, false)
+function getFriends() {
+           const request = new XMLHttpRequest(); //create a request
+           request.open("GET", "friends.json", true); //get method, file, async
+           request.onload = function () { //when the request is loaded
+               if (this.status == 200) { //check that the status is OK
+                   let friends= JSON.parse(this.responseText); //parse data
+                   console.log(friends) //console to see object
+                   let output = ''; //declare a container variable
+                   for (let i in friends) { //loop through array
+                       output += '<b>name: </b>' + friends[i].name + "<br>";
+                   }
+                   document.getElementById("friends").innerHTML = output;
+               //output results in div#friends
+               }
+           }
+           request.send(); //send request
+       }
+   </script>
+</body>
+</html>

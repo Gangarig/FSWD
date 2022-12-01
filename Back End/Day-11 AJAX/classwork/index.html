@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div id="content">
+           <button type="button" onclick="loadtext()">import</button>
+        </div>
+        <script>
+            function loadtext(){
+                let xhttp = new XMLHttpRequest();
+                xhttp.onload = function (){
+                    if(this.status == 200){
+                    document.getElementById('content').innerHTML = this.responseText;
+                    }
+                };
+            xhttp.open('GET','file.txt',true);
+            xhttp.send(); 
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<discography>
+   <album id="101">
+        <artist>Fleetwood Mac</artist>
+        <title>Tusk</title>
+        <genre>Rock</genre>
+        <price>109.95 </price>           <image>https://cdn.pixabay.com/photo/2021/08/27/09/28/compact-disc-6578256_1280.jpg</image>
+        <publish_date> 1979-08-01</publish_date>
+        <description>Rumours' follow up album </description>
+   </album>
+   <album id="102">
+        <artist>Phoebe Bridgers</artist>
+        <title>Stranger in the Alps </title>
+        <genre >Indie</genre>
+        <price>15.95</price>         <image>https://cdn.pixabay.com/photo/2021/08/27/09/28/compact-disc-6578256_1280.jpg</image>
+        <publish_date>2017-10-16</publish_date>
+        <description>Ghosts are walking on the mountain </description>
+   </album >
+   <album id ="103">
+        <artist>Mariah Carey</artist>
+        <title>Music Box </title>
+        <genre> Fantasy</genre>
+        <price>5.95</price>         <image>https://cdn.pixabay.com/photo/2021/08/27/09/28/compact-disc-6578256_1280.jpg</image>
+        <publish_date> 1993-03-17</publish_date>
+        <description>Back in the day when music was ok.</description>
+   </album >
+   <album  id="104">
+        <artist> Michael Jackson</artist>
+        <title> Thriller</title>
+        <genre> Pop</genre>
+        <price> 29.95</price>          <image>https://cdn.pixabay.com/photo/2021/08/27/09/28/compact-disc-6578256_1280.jpg</image>
+        <publish_date>1982-03-27 </publish_date>
+        <description >Monsters walking around and nobody knows what's going on.</description>
+   </album>
+</discography>

@@ -1,0 +1,28 @@
+
+[
+    {
+        "name":"chandler",
+        "age":40
+    },
+    {
+        "name":"monica",
+        "age":22
+    },
+    {
+        "name":"phoebe",
+        "age":30
+    },
+    {
+        "name":"joey",
+        "age":32
+    },
+    {
+        "name":"ross",
+        "age":50
+    },
+    {
+        "name":"rachel",
+        "age":27
+    }
+ 
+ ]

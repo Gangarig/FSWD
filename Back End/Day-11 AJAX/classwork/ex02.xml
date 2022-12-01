@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<list>
+    <song id='1'>
+        <artist>Jay Z and Alicia Keys</artist>
+        <title> Empire State of mind </title>
+        <description>Lorem ipsum</description>
+        <publish_date>2000-10-05</publish_date>
+    </song>
+    <song id='2'>
+        <artist> Eminem</artist>
+        <title>I am not afraid </title>
+        <description> Lorem ipsum</description>
+        <publish_date> 2000-10-05</publish_date>
+    </song>
+    <song id='3'>
+        <artist> Eminem</artist>
+        <title>Slim shady</title>
+        <description> Lorem ipsum</description>
+        <publish_date> 2000-10-05</publish_date>
+    </song>
+    <song id='4'>
+        <artist> Eminem</artist>
+        <title>Shake that</title>
+        <description> Lorem ipsum</description>
+        <publish_date> 2000-10-05</publish_date>
+    </song>
+    <song id='5'>
+        <artist> Eminem</artist>
+        <title>Till I Collapse</title>
+        <description> Lorem ipsum</description>
+        <publish_date> 2000-10-05</publish_date>
+    </song>
+    <song id='6'>
+        <artist> Eminem</artist>
+        <title>Mocking bird</title>
+        <description> Lorem ipsum</description>
+        <publish_date> 2000-10-05</publish_date>
+    </song>
+    <song id='7'>
+        <artist> Eminem</artist>
+        <title>Lose yourself</title>
+        <description> Lorem ipsum</description>
+        <publish_date> 2000-10-05</publish_date>
+    </song>
+    <song id='8'>
+        <artist> Eminem</artist>
+        <title>Venom</title>
+        <description> Lorem ipsum</description>
+        <publish_date> 2000-10-05</publish_date>
+    </song>
+    <song id='9'>
+        <artist> Eminem</artist>
+        <title>stan</title>
+        <description> Lorem ipsum</description>
+        <publish_date> 2000-10-05</publish_date>
+    </song>
+</list>
