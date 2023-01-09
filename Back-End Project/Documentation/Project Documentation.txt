@@ -1,0 +1,31 @@
+<====================================================>
+<====================================================>
+<====================================================>
+<====================================================>
+<====================================================>
+Group-8 Project-1 First Aid course Web Project
+
+******************************************************
+******************************************************
+******************************************************
+Students -- Gangarig Nyamsuren
+Students -- PLease write your names
+Students -- PLease write your names
+Students -- PLease write your names
+Students -- PLease write your names
+
+Technologies 
+--- CSS / SCSS / SASS
+--- HTML
+--- BOOTSTRAP
+--- PHP
+--- MYSQL
+--- AJAX
+
+<====================================================>
+<====================================================>
+<====================================================>
+<====================================================>
+<====================================================>
+
+Please keep in track what method are you using to complete your task and update documentation to related your task. if it is no written here please create one :D.

@@ -1,0 +1,93 @@
+<mxfile host="65bd71144e">
+    <diagram id="NsQjSuXdmplA5nXrRinJ" name="Page-1">
+        <mxGraphModel dx="2427" dy="2391" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#666666" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-324" y="333"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;" parent="1" source="6" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;Dashboard&lt;/span&gt;&lt;br&gt;&lt;span&gt;-Admin information&lt;/span&gt;&lt;br&gt;&lt;span&gt;-Links to Registration list // CRUD&lt;/span&gt;&lt;br&gt;&lt;span&gt;-Link to Reservation list // CRUD // checked reservation will be added to registration table with button or will be deleted&lt;/span&gt;&lt;br&gt;&lt;span&gt;-Link to Registered accounts //CRUD&lt;/span&gt;&lt;br&gt;&lt;span&gt;-CRUD on courses&lt;/span&gt;&lt;br&gt;&lt;span&gt;- Function to change user status to admin or trainer&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="44" y="278" width="232" height="206" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.645;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;Profile page&lt;/span&gt;&lt;br&gt;&lt;span&gt;-User information&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;-to make reservation on available course&lt;br&gt;if user made in reservation he/she can see it here&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="353" y="277" width="225" height="206" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0.536;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="473" y="865"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&lt;font color=&quot;#000000&quot;&gt;Main page&lt;br&gt;-- link to Login page&lt;br&gt;-- All the available courses&lt;br&gt;-- testimonials&lt;br&gt;-- trainer information etc..&lt;br&gt;-- in order to make reservation user must either create an account or login&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="44" y="770" width="225" height="189" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;" parent="1" source="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="464.5" y="484.04347826086996" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.445;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="9" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="147" y="623"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;font color=&quot;#000000&quot;&gt;Login Page&lt;br&gt;-- link or button create account opion&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="353" y="529" width="223" height="188" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#000000&quot;&gt;courses page&lt;br&gt;*** all information about courses with CRUD&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="57.5" y="-121" width="205" height="174" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font color=&quot;#000000&quot;&gt;Registration page&lt;br&gt;Registeration list&lt;br&gt;accepted reservations will be added here&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="-505" y="73" width="205" height="174" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font color=&quot;#000000&quot;&gt;reservations page&lt;br&gt;***Reservation List&lt;br&gt;to be checked&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="378" y="-121" width="205" height="174" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;font color=&quot;#000000&quot;&gt;accounts page&lt;br&gt;all registered accounts with CRUD&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="-332" y="-121" width="205" height="174" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="24" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-694" y="550"/>
+                            <mxPoint x="-694" y="-297"/>
+                            <mxPoint x="475" y="-297"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.46;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="24" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-413" y="256" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-388" y="459"/>
+                            <mxPoint x="-402" y="359"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="&lt;font color=&quot;#000000&quot;&gt;Trainer Page&lt;br&gt;-- trainer can also check reservations and add it to registration&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
+                    <mxGeometry x="-289" y="463" width="205" height="174" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
