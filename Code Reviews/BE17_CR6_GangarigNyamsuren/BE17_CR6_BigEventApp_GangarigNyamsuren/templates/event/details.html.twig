@@ -1,0 +1,43 @@
+{% extends "base.html.twig" %}
+{% block title %} Details of the Event{% endblock %}
+
+{% block body %}
+<h2 class="text-center mt-5"> Further Details about Event</h2>
+<div class="w-100 h-100 d-flex justify-content-center align-items-center">
+    <div class="card w-75">
+        <img src="{{ asset('image/' ~ event.image) }}" alt="" width="100%">
+        <div class="card-body">
+            <h5 class="card-title">{{event.name}}</h5>
+            <p class="card-text">{{event.description}}</p>
+            <p class="card-text">{{event.capacity}}</p>
+            <div>
+                <h6>Contact Options</h6>
+                <small class="d-flex justify-content-between">
+                <p class="card-text">Sent us an Email to this address : {{event.email}}</p>
+                <p class="card-text">Give us a Call : {{event.phoneNumber}}</p>
+                </small>
+            </div>
+            <div class="d-flex justify-content-center align-items-center justify-content-between m-1">
+                <p class="card-text">Event Type : {{event.type}}</p>            
+                <p class="card-text">Event Date : {{event.date | date()}}</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-around">
+                    <div class="w-50"></div>
+                    <div class="w-50 d-flex justify-content-end">
+                        <a href="/" class=" m-1 btn btn-dark">Back</a>
+                        <a href="/edit/{{event.id}}" class=" m-1 btn btn-dark">Edit</a>
+                        <a href="/delete/{{event.id}}" class=" m-1 btn btn-dark">Delete</a>
+                    </div>
+                </div>
+                <div>
+                    <p class="card-text"><small class="text-muted">
+                                {{event.address}} <br>
+                       <a href="" >{{event.url}}</a> 
+                    </small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
